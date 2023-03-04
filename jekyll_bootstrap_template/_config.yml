@@ -1,0 +1,31 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "" # the name of your site, e.g. ACME Corp.
+
+plugins:
+  - jekyll-datapage-generator
+# Enable safe mode
+safe: false
+
+# Whitelist plugins under safe mode.
+# Note that `some-other-jekyll-plugin` is not listed here. Therefore,
+# it will not be loaded under safe mode.
+whitelist:
+  - jekyll-datapage-generator
+
+
+page_gen-dirs: true # uncomment, if you prefer to generate named folders
+
+page_gen:
+  - data: 'sections'
+    template: 'industry-section'
+    name: 'SicSection'
+    value: 'Value'
+    slug: 'slug'
+    dir: 'section'
+
+  - data: 'company_level'
+    template: 'sic-section'
+    name: 'SicName'
+    value: 'Value'
+    dir: 'sic'
