@@ -8,7 +8,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Who funds the Conservative Party?">
     <meta name="twitter:description" content="{{page.Value | monetary}} has been donated from {{page.title}} since the 2019 elections.">
-    <meta name="twitter:image" content="{{'https://4000-geirfreysso-jekyllboots-7bpw9g20zu6.ws-eu87.gitpod.io/assets/images/sections/' | append: page.slug | append: '.png'}}">
+    <meta name="twitter:image" content="{{site.baseurl | absolute_url}}{{'/assets/images/sections/' | append: page.slug | append: '.png'}}">
 
     <title>{{ page.title }} - {{ site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
@@ -19,8 +19,8 @@
     <div class="container">
       <header class="d-flex justify-content-center py-3">
         <ul class="nav nav-pills">
-          <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="{{ site.baseurl }}/" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="{{ site.baseurl }}/about" class="nav-link">About</a></li>
         </ul>
       </header>
     </div>
@@ -47,7 +47,7 @@
         {% for sic_code in site.data.sic_level[page.title] %}
           <tr>
             <td>
-              <a href="/{{sic_code.slug | datapage_url: 'sic' }}">{{sic_code.SicDescription1}}</a>
+              <a href="{{ site.baseurl }}/{{sic_code.slug | datapage_url: 'sic' }}">{{sic_code.SicDescription1}}</a>
             </td>
             <td style="text-align:right;">
               {{sic_code.Value | monetary}}
