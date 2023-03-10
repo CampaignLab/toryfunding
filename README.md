@@ -1,7 +1,35 @@
-# jekyll-bootstrap-template
-Template for a Jekyll site using Bootstrap for visuals
+# Website to view Electoral Data
 
-## layout
+Uses:
+- Jekyll
+- bootstrap
+
+Reads data from json files and presents them as a static website.
+
+## Adding or editing
+To start development, you need jekyll
+
+```
+cd toryfunding
+bundle install
+```
+
+## Development
+For development, run
+
+```
+bundle exec jekyll serve
+``` 
+
+Then open localhost:4000/toryfunding.
+
+## Deploy your changes
+
+```
+bundle exec jekyll build
+```
+
+## Layout
 
 The layout is
 
