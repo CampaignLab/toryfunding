@@ -1,4 +1,4 @@
-url: "https://campaignlab.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://campaignlab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/toryfunding"
 title: "" # the name of your site, e.g. ACME Corp.
 
