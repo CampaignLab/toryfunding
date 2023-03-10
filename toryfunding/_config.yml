@@ -1,5 +1,5 @@
 url: "https://geirfreysson.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/fundingproject"
+baseurl: "/toryfunding"
 title: "" # the name of your site, e.g. ACME Corp.
 
 plugins:
