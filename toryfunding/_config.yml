@@ -1,6 +1,6 @@
-url: "https://campaignlab.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/toryfunding"
-title: "" # the name of your site, e.g. ACME Corp.
+url: "https://conservativepartyfunding.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/"
+title: "Who funds the Conservative Party?" # the name of your site, e.g. ACME Corp.
 
 plugins:
   - jekyll-datapage-generator
