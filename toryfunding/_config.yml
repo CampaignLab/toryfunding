@@ -1,5 +1,5 @@
 url: "https://conservativepartyfunding.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/"
+baseurl: ""
 title: "Who funds the Conservative Party?" # the name of your site, e.g. ACME Corp.
 
 plugins:

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Who funds the Conservative party"
+title: "About"
 ---
   <div class="container">
       <header class="d-flex justify-content-center py-3">
